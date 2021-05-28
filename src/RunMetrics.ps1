@@ -1,4 +1,4 @@
-﻿$artsPath = "C:\arts\";
+﻿$artsPath = "C:\artifacts\";
 $exclude = [System.Environment]::GetEnvironmentVariable("METRICS_EXCLUDE");
 if ($exclude -eq $null) {
     $excludedProjects = @();
